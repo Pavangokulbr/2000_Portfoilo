@@ -1,0 +1,15 @@
+*{
+    --background :#DBDCE0;
+    --primary    :#8868A8;
+    --secondary  :#232637;
+    --white      :#ffffff;
+}
+.pg-text-primary{
+    color: var(--primary)!important;
+}
+.pg-text-secondary{
+    color: var(--secondary)!important;
+}
+.pg-text-white{
+    color: var(--white)!important;
+}

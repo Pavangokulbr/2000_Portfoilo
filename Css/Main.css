@@ -1,0 +1,112 @@
+*{
+    --background :#DBDCE0;
+    --primary    :#8868A8;
+    --secondary  :#232637;
+    --white      :#ffffff;
+}
+header{
+    height: 7vh;
+    width: 100%;
+
+    background-color: transparent;
+    filter: blur(5px);
+    position: absolute;
+    z-index: 100;
+    
+}
+body{
+    background-color: var(--background);
+}
+section.main{
+    overflow: hidden;
+    height: 100vh;
+    background-color: var(--background);
+} 
+
+section.main .rectangle{
+    width: 151vh;
+    height: 106vh;
+    flex-shrink: 0;
+    transform: rotate(-58.849deg);
+
+    position: relative;
+    top: -499px;
+    left: -191px;
+    border: 92px solid var(--white);
+    background: var(--secondary);
+    scale: 1.2;
+    transition: 1s;
+}
+
+section.main .splash{
+
+    width: auto;
+    height: 102vh;
+    flex-shrink: 0;
+
+    position: relative;
+    top: -903px;
+    right: -1025px;
+    fill: var(--primary);
+    scale: 1.3;
+    transition:2s;
+} 
+section.main .pavan{
+
+    width: 85vh;
+    height: 82vh;
+    flex-shrink: 0;
+
+    position: relative;
+    z-index: 10;
+    scale: 1.3;
+    top: -1887px;
+    right: -874px;
+    transition: 1s;
+} 
+section.main .intro{
+    font-family: Inter;
+    width: 50%;
+    height: 73vh;
+    flex-shrink: 0;
+
+    position: relative;
+    z-index: 10;
+    scale: 1.3;
+    top: -2639px;
+    right: -139px;
+    padding-left: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition-property: width;
+  
+} 
+section.main .intro h1{
+    font-weight: bold;
+    font-size: 5vh;
+    padding-bottom: 5px;
+    animation-delay: 1.2s;
+    margin: -5px;
+}
+section.main .intro h3{
+
+    font-size: 2.5vh;
+}
+section.main .intro .text{
+ margin-bottom: 4vh;
+}
+
+section.main .intro h3,h1{
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 2.5s steps(40, end) forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+

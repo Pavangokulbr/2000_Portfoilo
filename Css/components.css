@@ -1,0 +1,10 @@
+*{
+    --background :#DBDCE0;
+    --primary    :#8868A8;
+    --secondary  :#232637;
+    --white      :#ffffff;
+}
+.pg-btn{
+    background-color: transparent;
+    border: 1px var(--white) solid;
+}
